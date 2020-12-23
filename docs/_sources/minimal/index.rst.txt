@@ -1,9 +1,9 @@
 .. title:: Option 1
 
-Current modern theme (Helvetica, Fancy frame)
-==============================================
+Current minimal theme (AvantGarde, Plain frame)
+==================================================
 
-Configuration settings for modern theme (current)
+Configuration settings for minimal theme
 -------------------------------------------------
 
 .. cssclass:: table-bordered
@@ -11,19 +11,19 @@ Configuration settings for modern theme (current)
 +---------------------------+---------------------------------+
 | Pameter                   | Setting                         |
 +===========================+=================================+
-| FONT_ANNOT_PRIMARY        | auto,Helvetica,black            |
+| FONT_ANNOT_PRIMARY        | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
-| FONT_ANNOT_SECONDARY      | auto,Helvetica,black            |
+| FONT_ANNOT_SECONDARY      | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
-| FONT_HEADING              | auto,Helvetica-Bold,black       |
+| FONT_HEADING              | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
-| FONT_LABEL                | auto,Helvetica,black            |
+| FONT_LABEL                | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
 | FONT_LOGO                 | auto,Helvetica,black            |
 +---------------------------+---------------------------------+
-| FONT_TAG                  | auto,Helvetica,black            |
+| FONT_TAG                  | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
-| FONT_TITLE                | auto,Helvetica-Bold,black       |
+| FONT_TITLE                | auto,AvantGarde-Book,black      |
 +---------------------------+---------------------------------+
 | FORMAT_GEO_MAP            | ddd:mm:ssF                      |
 +---------------------------+---------------------------------+
@@ -49,11 +49,15 @@ Configuration settings for modern theme (current)
 +---------------------------+---------------------------------+
 | MAP_VECTOR_SHAPE          | auto                            |
 +---------------------------+---------------------------------+
+| MAP_GRID_PEN_PRIMARY      | thinner, lightgrey              |
++---------------------------+---------------------------------+
+| MAP_GRID_PEN_SECONDARY    | thinnest, lightgrey             |
++---------------------------+---------------------------------+
 
-Mercator maps using modern theme (current)
+Mercator maps using minimal theme
 --------------------------------------------------------------------------------
 
-5 cm wide Mercator map using current modern theme
+5 cm wide Mercator map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -61,12 +65,12 @@ Mercator maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-a" src="../_static/figures/basemap_JM_modern_5c.png">
+                <img class="no-resize-a" src="../_static/figures/basemap_JM_minimal_5c.png">
             </div>
         </div>
     </div>
 
-10 cm wide Mercator map using current modern theme
+10 cm wide Mercator map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -74,12 +78,12 @@ Mercator maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-b" src="../_static/figures/basemap_JM_modern_10c.png">
+                <img class="no-resize-b" src="../_static/figures/basemap_JM_minimal_10c.png">
             </div>
         </div>
     </div>
 
-25 cm wide Mercator map using current modern theme
+25 cm wide Mercator map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -87,12 +91,12 @@ Mercator maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-c" src="../_static/figures/basemap_JM_modern_25c.png">
+                <img class="no-resize-c" src="../_static/figures/basemap_JM_minimal_25c.png">
             </div>
         </div>
     </div>
 
-100 cm wide Mercator map using current modern theme
+100 cm wide Mercator map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -100,15 +104,15 @@ Mercator maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-d" src="../_static/figures/basemap_JM_modern_100c.png">
+                <img class="no-resize-d" src="../_static/figures/basemap_JM_minimal_100c.png">
             </div>
         </div>
     </div>
 
-Lambert conic conformal maps using modern theme (current)
+Lambert conic conformal maps using minimal theme
 --------------------------------------------------------------------------------
 
-5 cm wide Lambert map using current modern theme
+5 cm wide Lambert map using current minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -116,12 +120,12 @@ Lambert conic conformal maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-a" src="../_static/figures/basemap_JL_modern_5c.png">
+                <img class="no-resize-a" src="../_static/figures/basemap_JL_minimal_5c.png">
             </div>
         </div>
     </div>
 
-10 cm wide Lambert map using current modern theme
+10 cm wide Lambert map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -129,12 +133,12 @@ Lambert conic conformal maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-b" src="../_static/figures/basemap_JL_modern_10c.png">
+                <img class="no-resize-b" src="../_static/figures/basemap_JL_minimal_10c.png">
             </div>
         </div>
     </div>
 
-25 cm wide Lambert map using current modern theme
+25 cm wide Lambert map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -142,12 +146,12 @@ Lambert conic conformal maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-c" src="../_static/figures/basemap_JL_modern_25c.png">
+                <img class="no-resize-c" src="../_static/figures/basemap_JL_minimal_25c.png">
             </div>
         </div>
     </div>
 
-100 cm wide Lambert map using current modern theme
+100 cm wide Lambert map using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -155,15 +159,15 @@ Lambert conic conformal maps using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-d" src="../_static/figures/basemap_JL_modern_100c.png">
+                <img class="no-resize-d" src="../_static/figures/basemap_JL_minimal_100c.png">
             </div>
         </div>
     </div>
 
-Cartesian plots using modern theme (current)
+Cartesian plots using minimal theme
 --------------------------------------------------------------------------------
 
-5 cm wide cartesian plot using current modern theme
+5 cm wide cartesian plot using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -171,12 +175,12 @@ Cartesian plots using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-a" src="../_static/figures/basemap_JX_modern_5c.png">
+                <img class="no-resize-a" src="../_static/figures/basemap_JX_minimal_5c.png">
             </div>
         </div>
     </div>
 
-10 cm wide cartesian plot using current modern theme
+10 cm wide cartesian plot using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -184,12 +188,12 @@ Cartesian plots using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-b" src="../_static/figures/basemap_JX_modern_10c.png">
+                <img class="no-resize-b" src="../_static/figures/basemap_JX_minimal_10c.png">
             </div>
         </div>
     </div>
 
-25 cm wide cartesian plot using current modern theme
+25 cm wide cartesian plot using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -197,12 +201,12 @@ Cartesian plots using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-c" src="../_static/figures/basemap_JX_modern_25c.png">
+                <img class="no-resize-c" src="../_static/figures/basemap_JX_minimal_25c.png">
             </div>
         </div>
     </div>
 
-100 cm wide cartesian plot using current modern theme
+100 cm wide cartesian plot using minimal theme
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -210,7 +214,7 @@ Cartesian plots using modern theme (current)
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img class="no-resize-d" src="../_static/figures/basemap_JX_modern_100c.png">
+                <img class="no-resize-d" src="../_static/figures/basemap_JX_minimal_100c.png">
             </div>
         </div>
     </div>
